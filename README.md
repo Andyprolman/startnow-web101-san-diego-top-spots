@@ -1,0 +1,1 @@
+This application will take a get request of a specific movie and return info about that movie using the omdb api.

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css" type='text/css'>
+    <meta charset="utf-8">
+    <title>San Diego Top Spots</title>
+    <style>
+            /* Always set the map height explicitly to define the size of the div
+             * element that contains the map. */
+            #map {
+              height: 100%;
+            }
+            /* Optional: Makes the sample page fill the window. */
+            html, body {
+              height: 100%;
+              margin: 0;
+              padding: 0;
+            }
+          </style>
+</head>
+<div class = 'container'></div>
+    <body id = 'body'>
+        <h1 id = 'header'>San Diego Top Spots</h1>
+        <table id = 'table'>
+            <tr id = 'header'>
+                <th id = 'name'>Name</th>
+                <th id = 'description'>Decription</th>
+                <th id = 'link'>Link</th>
+            </tr>
+        </table>
+        <div id="map"></div>
+        <div id="content"></div>
+        <div id = 'right-panel'></div>
+        
+
+            
+        
+
+        
+        <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCHqb2LsS_bFuZNOAtlw4_ydWQNeG7mmeo&callback=initMap"
+        type="text/javascript"></script>
+        <script src = 'main.js' type = 'text/javascript'> </script> 
+  
+    </body>
+</div>
+</html>
