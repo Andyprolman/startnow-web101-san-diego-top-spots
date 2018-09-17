@@ -1,1 +1,1 @@
-This application will take a get request of a specific movie and return info about that movie using the omdb api.
+This application will import a list of top spots from a json file and put that informtaion into a table. It will palce each location on a map using markers and can direct you from your current location to those markers using the google maps api.
